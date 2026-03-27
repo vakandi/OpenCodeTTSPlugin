@@ -7,9 +7,7 @@ description: "Ask Elia to speak in French using elia-speak"
 
 ${message}
 
----
-
-Résume en français ce que tu viens de faire dans cette session. Utilise la commande `elia-speak` pour prononcer le résumé directement. Sois concis et parle clairement.
+Génère un résumé vocal en français de ce que tu viens de faire dans cette session. Utilise la commande `elia-speak` pour prononcer le résumé directement. Sois concis et parle clairement.
 
 **IMPORTANT**: When asked to speak, ALWAYS use:
 ```bash
