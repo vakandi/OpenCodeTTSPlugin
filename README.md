@@ -15,7 +15,7 @@ Voice input plugin for OpenCode with PyQt5 stop button and ntfy.sh notifications
 | Command | Description |
 |---------|-------------|
 | `/talk` | Record voice, transcribe, and auto-send as message |
-| `/speak` | Ask AI to summarize work in French as `say` commands |
+| `/speak` | Ask AI to speak in French with `elia-speak` |
 
 ## Installation
 
@@ -94,7 +94,7 @@ python3 -c "import whisper; whisper.load_model('medium')"
 
 ### `/speak` - French Summary
 
-Type `/speak` to ask the AI to summarize its work in French as `say -v Thomas` commands.
+Type `/speak` to ask the AI to speak in French using `elia-speak` with Kokoro TTS. The AI will prefix the message with "**Speak about the :**" followed by the content to be spoken.
 
 ## How It Works
 
