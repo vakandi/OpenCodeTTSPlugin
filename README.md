@@ -1,5 +1,7 @@
 # OpenCode Voice Plugin
 
+
+
 Voice input plugin for OpenCode with PyQt5 stop button and ntfy.sh notifications.
 
 ## Features
